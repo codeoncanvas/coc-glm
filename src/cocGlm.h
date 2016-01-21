@@ -1,12 +1,17 @@
+
 #pragma once
 
-#if defined(COC_OF)
+#if defined( COC_OF )
 
-#include "ofMain.h"
 #include <glm/glm.hpp>
+#include "ofVectorMath.h"
 
-ofVec2f toOf( const glm::vec2 &_v ) {
+namespace coc {
+
+static ofVec2f toOf( const glm::vec2 &_v ) {
     return ofVec2f( _v.x, _v.y );
+}
+
 }
 
 #endif
