@@ -3,6 +3,7 @@
 
 #if defined( COC_OF )
 
+#define GLM_FORCE_SIZE_FUNC
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 
