@@ -5,6 +5,7 @@
 
 #define GLM_FORCE_SIZE_FUNC
 #include <glm/glm.hpp>
+#include <glm/gtx/transform.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 
 #include "ofVectorMath.h"
